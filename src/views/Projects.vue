@@ -1,0 +1,295 @@
+<template>
+  <div>
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-2">Projects that I have built</h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class>
+        <div class>
+          <center>
+            <div class="columns is-centered uihead">
+              <h5>
+                <strong>UI & VUE DESIGNS</strong>
+              </h5>
+            </div>
+          </center>
+          <div class="post-card flex-container">
+            <div class="grid-item col-lg-2">
+              <a href="https://github.com/teembet/sycamore">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square" style="text-align:center">
+                      <img
+                        src="../assets/sycamore.png"
+                        alt="Placeholder image"
+                        style="object-fit:contain"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Sycamore</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://xd.adobe.com/view/4c8b0341-c158-42a4-493b-3c88d7d6b52a-3aba/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/vue-logo.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Portfolio App</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://xd.adobe.com/view/36a3e2aa-f52d-4e27-644b-ec9843145ced-4092/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/MICSERAH.jpg" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Micserah Watches</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://xd.adobe.com/view/a335215a-375d-43cd-6016-04f23411227f-d504/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/medihub.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">MediHub App</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://xd.adobe.com/view/ee7c734e-1f18-474a-5103-d52ad73691a9-984d/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/URANHIVE.jpg" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Urban Hive</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://xd.adobe.com/view/b0058bc1-b7ff-45b3-54a5-3e52a4573ea5-c634/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img
+                        src="../assets/weather.png"
+                        alt="Placeholder image"
+                        style="object-fit:contain"
+                      />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Weather App</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="http://aries-f21cb.firebaseapp.com">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/sales.gif" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Aries</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://coursesgram.firebaseapp.com">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/vuetify.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">CourseGram</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://myvue-portfolio.herokuapp.com">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/vue-logo.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Vue Portfolio</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://github.com/teembet/cryptodisplay">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/crypto.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">CryptoDisplay</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<style type="text/css">
+.grid-item {
+  padding: 20px;
+}
+.uihead {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .grid-item {
+    padding: 20px;
+    width: 100%;
+  }
+}
+</style>
+
+<script>
+export default {
+  name: "projects",
+};
+</script>
