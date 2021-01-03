@@ -8,8 +8,7 @@
       </div>
     </section>
     <section class="section">
-      <div class>
-        <div class>
+
           <center>
             <div class="columns is-centered uihead">
               <h5>
@@ -17,8 +16,9 @@
               </h5>
             </div>
           </center>
-          <div class="post-card flex-container">
-            <div class="grid-item col-lg-2">
+       
+          <div class="post-card flex-container columns  is-multiline">
+            <div class="grid-item col-lg-2 column is-one-fifth">
               <a href="https://github.com/teembet/sycamore">
                 <div class="card">
                   <div class="card-image">
@@ -45,7 +45,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/4c8b0341-c158-42a4-493b-3c88d7d6b52a-3aba/">
                 <div class="card">
                   <div class="card-image">
@@ -68,7 +68,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/36a3e2aa-f52d-4e27-644b-ec9843145ced-4092/">
                 <div class="card">
                   <div class="card-image">
@@ -91,7 +91,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/a335215a-375d-43cd-6016-04f23411227f-d504/">
                 <div class="card">
                   <div class="card-image">
@@ -114,7 +114,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <!-- <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/ee7c734e-1f18-474a-5103-d52ad73691a9-984d/">
                 <div class="card">
                   <div class="card-image">
@@ -135,9 +135,9 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/b0058bc1-b7ff-45b3-54a5-3e52a4573ea5-c634/">
                 <div class="card">
                   <div class="card-image">
@@ -164,7 +164,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="http://aries-f21cb.firebaseapp.com">
                 <div class="card">
                   <div class="card-image">
@@ -187,7 +187,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://coursesgram.firebaseapp.com">
                 <div class="card">
                   <div class="card-image">
@@ -210,7 +210,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://myvue-portfolio.herokuapp.com">
                 <div class="card">
                   <div class="card-image">
@@ -233,7 +233,7 @@
               </a>
             </div>
 
-            <div class="grid-item">
+            <div class="grid-item column is-one-fifth">
               <a href="https://github.com/teembet/cryptodisplay">
                 <div class="card">
                   <div class="card-image">
@@ -256,14 +256,15 @@
               </a>
             </div>
           </div>
-        </div>
-      </div>
+         
+        
+     
     </section>
   </div>
 </template>
 
 <style type="text/css">
-.grid-item {
+/* .grid-item {
   padding: 20px;
 }
 .uihead {
@@ -285,7 +286,7 @@
     padding: 20px;
     width: 100%;
   }
-}
+} */
 </style>
 
 <script>
