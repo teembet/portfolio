@@ -1,10 +1,12 @@
 <template>
   <div>
-    <section class="hero is-medium is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-2">Projects that I have built</h1>
-        </div>
+    <section class="hero is-medium">
+      <div class="hero-body parallax-container">
+       
+         <div class="parallax">
+ 
+             <h1 class="title is-2 para-title">Projects that I have built</h1>
+       </div>
       </div>
     </section>
     <section class="section">
@@ -263,7 +265,41 @@
   </div>
 </template>
 
-<style type="text/css">
+<style type="text/css" scoped>
+.parallax{
+    background-image: url("../assets/splash2.jpg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+  @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }}
+.box {
+
+  height: 100%;
+}
+.tech-box-title {
+  margin-top: 1.5rem;
+}
+.para-title{
+    position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.parallax-container {
+  position: relative;
+   width: auto;
+}
 /* .grid-item {
   padding: 20px;
 }
@@ -287,6 +323,9 @@
     width: 100%;
   }
 } */
+.card{
+  border-radius: 6px;
+}
 </style>
 
 <script>

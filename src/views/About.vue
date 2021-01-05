@@ -1,12 +1,22 @@
 <template>
   <div>
-    <section class="hero is-medium is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-2">Meet Timbet</h1>
-        </div>
+    <section class="hero is-medium">
+      <div class="hero-body parallax-container">
+       <div class="parallax">
+ 
+             <h1 class="title is-2 para-title">Meet Timbet</h1>
+       </div>
+          <!-- <parallax :speed-factor="1.20" direction="down" >
+         
+            <img src="../assets/cloud-background.png"/>
+             <h1 class="title is-2 para-title">Meet Timbet</h1>
+              
+          </parallax>
+         -->
+        
       </div>
     </section>
+    
     <section class="section">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">What I Bring</h2>
       <div class="container">
@@ -121,17 +131,49 @@
   </div>
 </template>
 
-<style type="text/css">
+<style type="text/css" scoped>
+.parallax{
+    background-image: url("../assets/splash1.jpg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+  @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }}
 .box {
+
   height: 100%;
 }
 .tech-box-title {
   margin-top: 1.5rem;
 }
+.para-title{
+    position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.parallax-container {
+  position: relative;
+   width: auto;
+}
 </style>
+<style lang="scss" scoped>
 
+</style>
 <script>
 export default {
+
+ 
   name: "about",
 };
 </script>

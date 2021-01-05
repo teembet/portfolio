@@ -2,12 +2,13 @@
   <div>
     <div class="hero-home is-cover is-relative is-fullheight-with-navbar ">
     <div class="hero-body">
+      
     <div class="container" >
 				<h1 class="title is-1">Hello, I'm <span style="color:teal">Timbet,</span></h1>
 				<h2 class="subtitle is-3">A customer focused, entrepreneurially minded Software Developer.</h2>
         <a href="" class="button is-primary is-medium is-outlined">Download CV</a>
-          <div class="social-links">
-            <h3>Get In Touch</h3>
+          <div class="social-links social-networks bounce">
+            <h2 style="padding:10px">Get In Touch</h2>
 <a href=""><i class="fab fa-linkedin-in"></i></a>
 <a><i class="fab fa-facebook"></i></a>
 <a href="https://github.com/teembet"><i class="fab fa-github"></i></a>
@@ -16,14 +17,18 @@
       </div>
 			</div>
      <div class="img-box is-hidden-mobile is-hidden-tablet-only">
+      
+
 <img class="img-fluid back-img" src="../assets/pattern.png" >
 <img class="img-fluid main-img" src="../assets/timbet 2.png"  >
+
+      
      </div>
         <div id="section10" class="demo is-hidden-mobile">
- <a href="#about" v-smooth-scroll="{ duration: 1000, offset: -50 }"><span></span>Scroll</a></div>
-		</div>
+ <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }"><span></span>Scroll</a></div>
+		
     </div>
-
+</div>
   </div>
 </template>
 
@@ -35,8 +40,122 @@ export default {
   name: "home",
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
 
+.social-networks {
+  margin: 0 0 35px;
+  padding: 0;
+ 
+ 
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    margin: 0 7px;
+    width: 68px;
+    height: 68px;
+    font-size: 0;
+   
+    text-align: center;
+    text-decoration: none;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      margin-top: -50%;
+      margin-left: -50%;
+      border-radius: 100px;
+     
+      transition: all 400ms;
+    }
+
+    &:after {
+      position: relative;
+      display: block;
+      font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      color: #fff;
+      font-size: 26px;
+      line-height: 66px;
+    }
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  
+  &.spin-icon a:hover:after, &.spin-icon a:focus:after {
+    transition: transform 0.4s ease-out;
+    transform: rotateZ(360deg);
+  }
+  
+  &.square a:hover:before, &.square a:focus:before {
+    border-radius: 0;
+  }
+  
+  &.bounce a:hover, &.bounce a:focus {
+    animation: bounce 1s;
+  }
+  
+  $networks: linkedin '\eac9' #0077b5, facebook '\e603' #3b5998, twitter '\e618' #00b0ed, github '\eab1' #4183c4, instagram '\e604' #3f729b, vimeo '\ea9c' #1ab7ea, twitch '\ea9b' #6441a5, pinterest '\e605' #cc2127;
+  
+  @each $network in $networks {
+     .icon-#{nth($network, 1)} {
+       &:after {
+         content: '#{nth($network, 2)}';
+      }
+
+      &:hover:before, &:focus:before {
+        background: nth($network, 3);
+      }
+    }
+  }
+}
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40% {
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -6px, 0);
+  }
+
+  70% {
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -4px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-2px,0);
+  }
+}
+</style> 
+<style scoped>
+.parallaxx{
+    background-color: white;
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
 .container{
   z-index: 1;
 }
@@ -161,5 +280,8 @@ export default {
 .demo a:hover {
   opacity: .5;
 }
-
 </style>
+
+
+
+

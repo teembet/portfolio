@@ -20,13 +20,13 @@
         </div> -->
 
         <div class="navbar-end">
-          <a href="#home" v-smooth-scroll="{ duration: 1000, offset: -50 }"  class="navbar-item">
+          <a href="#home" v-smooth-scroll="{ duration: 2000, offset: -50 }"  class="navbar-item">
             Home
           </a>
-          <a href="#about" v-smooth-scroll="{ duration: 1000, offset: -50 }" class="navbar-item">
+          <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item">
            About
           </a>
-          <a href="#projects" v-smooth-scroll="{ duration: 1000, offset: -50 }" class="navbar-item">
+          <a href="#projects" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item">
            Projects
           </a>
           <!-- <router-link to="/contact" class="navbar-item">
