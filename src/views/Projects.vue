@@ -5,7 +5,7 @@
        
          <div class="parallax">
  
-             <h1 class="title is-2 para-title">Projects that I have built</h1>
+             <h1 class="title is-2 para-title">Projects I have built</h1>
        </div>
       </div>
     </section>
@@ -267,7 +267,7 @@
 
 <style type="text/css" scoped>
 .parallax{
-    background-image: url("../assets/splash2.jpg");
+    background-image: url("../assets/splash4.jpg");
   /* Set a specific height */
   height: 500px;
 
