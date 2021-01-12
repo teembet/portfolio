@@ -6,7 +6,7 @@
     <div class="container" >
 				<h1 class="title head-anim1 is-1">Hello, I'm <span style="color:teal">Timbet,</span></h1>
 				<h2 class="subtitle is-3 head-anim2">A customer focused, entrepreneurially minded Software Developer.</h2>
-        <a class="button is-primary is-medium is-outlined" href="../assets/timbetekanemCV.pdf" download>Download CV <i class="anim-icon fas fa-angle-double-down"></i></a>
+        <a class="button is-primary is-medium is-outlined" href="https://drive.google.com/file/d/16dezs-yCo9TtXyCnI7TyyA7eTpJMXcvn/view?usp=sharing" target="_blank" download>Download CV <i class="anim-icon fas fa-angle-double-down"></i></a>
           <div class="social-links social-networks bounce">
             <h2 style="padding:10px">Get In Touch</h2>
 <a href=""><i class="fab fa-linkedin-in"></i></a>
@@ -41,7 +41,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
+.container{
+  backface-visibility: hidden;
+}
 .anim-icon{
   padding: 10px;
   animation:downloadIcon 2s infinite !important;
@@ -150,7 +152,7 @@ transform: translateX(-1rem);
       position: relative;
       display: block;
       font-family: 'icomoon';
-      speak: none;
+     
       font-style: normal;
       font-weight: normal;
       font-variant: normal;
