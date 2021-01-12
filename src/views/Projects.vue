@@ -47,7 +47,7 @@
               </a>
             </div>
 
-            <div class="grid-item column is-one-fifth">
+            <!-- <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/4c8b0341-c158-42a4-493b-3c88d7d6b52a-3aba/">
                 <div class="card">
                   <div class="card-image">
@@ -68,9 +68,9 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
-            <div class="grid-item column is-one-fifth">
+            <!-- <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/36a3e2aa-f52d-4e27-644b-ec9843145ced-4092/">
                 <div class="card">
                   <div class="card-image">
@@ -91,7 +91,7 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
 
             <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/a335215a-375d-43cd-6016-04f23411227f-d504/">
@@ -213,7 +213,7 @@
             </div>
 
             <div class="grid-item column is-one-fifth">
-              <a href="https://myvue-portfolio.herokuapp.com">
+              <a href="https://timbet-portfolio.herokuapp.com">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -235,7 +235,7 @@
               </a>
             </div>
 
-            <div class="grid-item column is-one-fifth">
+            <!-- <div class="grid-item column is-one-fifth">
               <a href="https://github.com/teembet/cryptodisplay">
                 <div class="card">
                   <div class="card-image">
@@ -246,7 +246,7 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4">CryptoDisplay</p>
+                        <p class="title is-4"></p>
                       </div>
                     </div>
                     <div class="content">
@@ -256,7 +256,7 @@
                   </div>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
          
         
