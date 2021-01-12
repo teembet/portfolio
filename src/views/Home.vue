@@ -4,9 +4,9 @@
     <div class="hero-body">
       
     <div class="container" >
-				<h1 class="title is-1">Hello, I'm <span style="color:teal">Timbet,</span></h1>
-				<h2 class="subtitle is-3">A customer focused, entrepreneurially minded Software Developer.</h2>
-        <a href="" class="button is-primary is-medium is-outlined">Download CV</a>
+				<h1 class="title head-anim1 is-1">Hello, I'm <span style="color:teal">Timbet,</span></h1>
+				<h2 class="subtitle is-3 head-anim2">A customer focused, entrepreneurially minded Software Developer.</h2>
+        <a class="button is-primary is-medium is-outlined" href="../assets/timbetekanemCV.pdf" download>Download CV <i class="anim-icon fas fa-angle-double-down"></i></a>
           <div class="social-links social-networks bounce">
             <h2 style="padding:10px">Get In Touch</h2>
 <a href=""><i class="fab fa-linkedin-in"></i></a>
@@ -41,6 +41,75 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+
+.anim-icon{
+  padding: 10px;
+  animation:downloadIcon 2s infinite !important;
+
+
+}
+@keyframes downloadIcon{
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 5px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.head-anim1{
+  animation-name: slideLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+
+}
+
+@keyframes slideLeft{
+  0%{
+transform: translateX(-2rem);
+opacity: 0;
+  }
+
+  80%{
+transform: translateX(1rem);
+
+  }
+
+  100%{
+     transform: translate(0);
+     opacity: 1;
+  }
+}
+.head-anim2{
+  animation-name: slideRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+
+}
+@keyframes slideRight{
+  0%{
+transform: translateX(2rem);
+opacity: 0;
+  }
+
+  80%{
+transform: translateX(-1rem);
+
+  }
+
+  100%{
+     transform: translate(0);
+     opacity: 1;
+  }
+}
 
 .social-networks {
   margin: 0 0 35px;
@@ -280,33 +349,10 @@ export default {
 .demo a:hover {
   opacity: .5;
 }
-.buttonDownload {
-	display: inline-block;
-	position: relative;
-	padding: 10px 25px;
-  
-	background-color: #4CC713;
-	color: white;
-  
-	font-family: sans-serif;
-	text-decoration: none;
-	font-size: 0.9em;
-	text-align: center;
-	text-indent: 15px;
-}
 
-.buttonDownload:hover {
-	background-color: #333;
-	color: white;
-}
 
-.buttonDownload:before, .buttonDownload:after {
-	content: ' ';
-	display: block;
-	position: absolute;
-	left: 15px;
-	top: 52%;
-}
+
+
 
 /* Download box shape  */
 .buttonDownload:before {
@@ -316,53 +362,7 @@ export default {
 	border-width: 0 2px 2px;
 }
 
-/* Download arrow shape */
-.buttonDownload:after {
-	width: 0;
-	height: 0;
-	margin-left: 3px;
-	margin-top: -7px;
-  
-	border-style: solid;
-	border-width: 4px 4px 0 4px;
-	border-color: transparent;
-	border-top-color: inherit;
-	
-	animation: downloadArrow 2s linear infinite;
-	animation-play-state: paused;
-}
 
-.buttonDownload:hover:before {
-	border-color: #4CC713;
-}
-
-.buttonDownload:hover:after {
-	border-top-color: #4CC713;
-	animation-play-state: running;
-}
-
-/* keyframes for the download icon anim */
-@keyframes downloadArrow {
-	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
-	0% {
-		margin-top: -7px;
-		opacity: 1;
-	}
-	
-	0.001% {
-		margin-top: -15px;
-		opacity: 0;
-	}
-	
-	50% {
-		opacity: 1;
-	}
-	
-	100% {
-		margin-top: 0;
-		opacity: 0;
-	}
-}
 </style>
 
 
