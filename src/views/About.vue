@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium">
+    <section class="hero is-medium" v-scroll-reveal.reset="{ delay: 250 }">
       <div class="hero-body parallax-container">
        <div class="parallax">
  
@@ -17,7 +17,7 @@
       </div>
     </section>
     
-    <section class="section">
+    <section class="section" v-scroll-reveal.reset="{ delay: 250 }">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">What I Bring</h2>
       <div class="container">
         <div class="columns">
@@ -42,7 +42,7 @@
         </div>
       </div>
     </section>
-    <section class="section has-background-light">
+    <section class="section has-background-light" v-scroll-reveal.reset="{ delay: 250 }">
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-four-fifths">
@@ -51,7 +51,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" v-scroll-reveal.reset="{ delay: 250 }">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">Technologies I've Worked With</h2>
       <div class="container">
         <div class="columns is-centered">
@@ -108,7 +108,7 @@
         >Web API's • Mongodb • Vue • Android • Wordpress • Firebase</p>
       </div>
     </section>
-    <section class="section has-background-light">
+    <section class="section has-background-light" v-scroll-reveal.reset="{ delay: 250 }">
       <h2 class="title is-3 has-text-weight-medium has-text-centered">What Drives Me</h2>
       <div class="container">
         <div class="columns is-centered">

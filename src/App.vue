@@ -42,7 +42,7 @@
   <about id="about"/>
   <projects id="projects"/>
    </div>
-   <footer class="footer">
+   <footer class="footer" v-scroll-reveal.reset="{ delay: 250 }" >
     <div class="content has-text-centered">
       <p>
         Built by Timbet Ekanem with Vue.js, Bulma, and Mongo DB.

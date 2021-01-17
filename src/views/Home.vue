@@ -1,45 +1,51 @@
 <template>
   <div>
-    <div class="hero-home is-cover is-relative is-fullheight-with-navbar">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title head-anim1 is-1">
-            Hello, I'm <span style="color: teal">Timbet,</span>
-          </h1>
-          <h2 class="subtitle is-3 head-anim2">
-            A customer focused, entrepreneurially minded Software Developer.
-          </h2>
-          <a
-            class="button is-primary is-medium is-outlined"
-            href="https://drive.google.com/file/d/16dezs-yCo9TtXyCnI7TyyA7eTpJMXcvn/view?usp=sharing"
-            target="_blank"
-            download
-            >Download CV <i class="anim-icon fas fa-angle-double-down"></i
-          ></a>
-          <div class="social-links social-networks bounce">
-            <h2 style="padding: 10px">Get In Touch</h2>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-            <a><i class="fab fa-facebook"></i></a>
-            <a href="https://github.com/teembet"
-              ><i class="fab fa-github"></i
+    <section v-scroll-reveal.reset="{ delay: 250 }">
+      <div class="hero-home is-cover is-relative is-fullheight-with-navbar">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title head-anim1 is-1">
+              Hello, I'm <span style="color: teal">Timbet,</span>
+            </h1>
+            <h2 class="subtitle is-3 head-anim2">
+              A customer focused, entrepreneurially minded Software Developer.
+            </h2>
+            <a
+              class="button is-primary is-medium is-outlined"
+              href="https://drive.google.com/file/d/16dezs-yCo9TtXyCnI7TyyA7eTpJMXcvn/view?usp=sharing"
+              target="_blank"
+              download
+              >Download CV <i class="anim-icon fas fa-angle-double-down"></i
             ></a>
-            <a href="https://twitter.com/teem2016"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a><i class="fab fa-instagram"></i></a>
+            <div class="social-links social-networks bounce">
+              <h2 style="padding: 10px">Get In Touch</h2>
+              <a href="timbetekanem@yahoo.com"><i class="fab fa-email"></i></a>
+              <a href="https://linkedin.com/in/timbet-ekanem"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+
+              <a href="https://github.com/teembet"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://twitter.com/teem2016"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <figure
+            class="img-box is-hidden-mobile is-hidden-tablet-only is-fullwidth"
+          >
+            <img class="img-fluid back-img" src="../assets/pattern.png" />
+            <img class="img-fluid main-img" src="../assets/timbet 2.png" />
+          </figure>
+          <div id="section10" class="demo is-hidden-mobile">
+            <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }"
+              ><span></span>Scroll</a
+            >
           </div>
         </div>
-        <figure class="img-box is-hidden-mobile is-hidden-tablet-only is-fullwidth">
-          <img class="img-fluid back-img" src="../assets/pattern.png" />
-          <img class="img-fluid main-img" src="../assets/timbet 2.png" />
-        </figure>
-        <div id="section10" class="demo is-hidden-mobile">
-          <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }"
-            ><span></span>Scroll</a
-          >
-        </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -226,7 +232,7 @@ export default {
     transform: translate3d(0, -2px, 0);
   }
 }
-</style> 
+</style>
 <style scoped>
 .parallaxx {
   background-color: white;
@@ -367,7 +373,3 @@ export default {
   border-width: 0 2px 2px;
 }
 </style>
-
-
-
-

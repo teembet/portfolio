@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-medium">
+    <section class="hero is-medium" v-scroll-reveal.reset="{ delay: 250 }">
       <div class="hero-body parallax-container">
        
          <div class="parallax">
@@ -11,14 +11,14 @@
     </section>
     <section class="section">
 
-          <center>
+          <center v-scroll-reveal.reset="{ delay: 250 }">
             <div class="columns is-centered uihead">
               <h5>
                 <strong>UI & VUE DESIGNS</strong>
               </h5>
             </div>
           </center>
-       
+       <section v-scroll-reveal.reset="{ delay: 250 }">
           <div class="post-card flex-container columns  is-multiline">
             <div class="grid-item col-lg-2 column is-one-fifth">
               <a href="https://github.com/teembet/sycamore">
@@ -258,6 +258,7 @@
               </a>
             </div> -->
           </div>
+          </section>
          
         
      
