@@ -246,7 +246,7 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4"></p>
+                        <p class="title is-4">Michara Food App</p>
                       </div>
                     </div>
                     <div class="content">
