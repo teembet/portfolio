@@ -105,7 +105,7 @@
         </div>
         <p
           class="tech-box-title title is-4 has-text-weight-light has-text-centered"
-        >Web API's • Mongodb • Vue • Android • Wordpress • Firebase</p>
+        >Web API's • Mongodb • Vue • Angular • Wordpress • Firebase</p>
       </div>
     </section>
     <section class="section has-background-light" v-scroll-reveal.reset="{ delay: 250 }">

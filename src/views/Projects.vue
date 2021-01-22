@@ -21,7 +21,7 @@
        <section v-scroll-reveal.reset="{ delay: 250 }">
           <div class="post-card flex-container columns  is-multiline">
             <div class="grid-item col-lg-2 column is-one-fifth">
-              <a href="https://github.com/teembet/sycamore">
+              <a target="__blank" href="https://github.com/teembet/sycamore">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square" style="text-align:center">
@@ -94,7 +94,7 @@
             </div> -->
 
             <div class="grid-item column is-one-fifth">
-              <a href="https://xd.adobe.com/view/a335215a-375d-43cd-6016-04f23411227f-d504/">
+              <a target="__blank" href="https://xd.adobe.com/view/a335215a-375d-43cd-6016-04f23411227f-d504/">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -140,7 +140,7 @@
             </div> -->
 
             <div class="grid-item column is-one-fifth">
-              <a href="https://xd.adobe.com/view/b0058bc1-b7ff-45b3-54a5-3e52a4573ea5-c634/">
+              <a target="__blank" href="https://xd.adobe.com/view/b0058bc1-b7ff-45b3-54a5-3e52a4573ea5-c634/">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -167,7 +167,7 @@
             </div>
 
             <div class="grid-item column is-one-fifth">
-              <a href="http://aries-f21cb.firebaseapp.com">
+              <a target="__blank" href="http://aries-f21cb.firebaseapp.com">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -190,7 +190,7 @@
             </div>
 
             <div class="grid-item column is-one-fifth">
-              <a href="https://coursesgram.firebaseapp.com">
+              <a target="__blank" href="https://coursesgram.firebaseapp.com">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -213,7 +213,7 @@
             </div>
 
             <div class="grid-item column is-one-fifth">
-              <a href="https://timbet-portfolio.herokuapp.com">
+              <a target="__blank" href="https://timbet-portfolio.herokuapp.com">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -235,12 +235,12 @@
               </a>
             </div>
 
-            <!-- <div class="grid-item column is-one-fifth">
-              <a href="https://github.com/teembet/cryptodisplay">
+            <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://michara.herokuapp.com">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
-                      <img src="../assets/crypto.png" alt="Placeholder image" />
+                      <img src="../assets/michara.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div class="card-content">
@@ -256,7 +256,7 @@
                   </div>
                 </div>
               </a>
-            </div> -->
+            </div>
           </div>
           </section>
          
