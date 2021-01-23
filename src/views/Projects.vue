@@ -9,7 +9,7 @@
        </div>
       </div>
     </section>
-    <section class="section">
+   
 
           <center v-scroll-reveal.reset="{ delay: 250 }">
             <div class="columns is-centered uihead">
@@ -262,7 +262,7 @@
          
         
      
-    </section>
+   
   </div>
 </template>
 

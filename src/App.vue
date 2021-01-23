@@ -35,7 +35,7 @@
        </div>
      </div>
    </nav>
-   <div data-bs-spy="scroll" data-bs-target="#navbarBasicExample" data-bs-offset="0" tabindex="0">
+   <div >
 
   
 <home id="home"/>
@@ -89,16 +89,16 @@ footer {
 }
 </style>
 
-<style lang="sass">
+<style lang="scss">
 
-$navbar-item-hover-color: teal
-$primary: teal
+$navbar-item-hover-color: teal;
+$primary: teal;
 
 
-.hero-home
+.hero-home{
   @extend .hero
   
-
+}
 
 @import "~bulma/bulma.sass"
 

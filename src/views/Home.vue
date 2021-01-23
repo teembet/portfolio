@@ -19,15 +19,15 @@
             ></a>
             <div class="social-links social-networks bounce">
               <h2 style="padding: 10px">Get In Touch</h2>
-              <a href="timbetekanem@yahoo.com"><i class="fab fa-email"></i></a>
-              <a href="https://linkedin.com/in/timbet-ekanem"
+              <a  href="mailto:timbetekanem@yahoo.com"><i class="fas fa-envelope"></i></a>
+              <a target="__blank" href="https://linkedin.com/in/timbet-ekanem"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
 
-              <a href="https://github.com/teembet"
+              <a target="__blank" href="https://github.com/teembet"
                 ><i class="fab fa-github"></i
               ></a>
-              <a href="https://twitter.com/teem2016"
+              <a target="__blank" href="https://twitter.com/teem2016"
                 ><i class="fab fa-twitter"></i
               ></a>
             </div>
