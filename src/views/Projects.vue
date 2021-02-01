@@ -47,18 +47,18 @@
               </a>
             </div>
 
-            <!-- <div class="grid-item column is-one-fifth">
-              <a href="https://xd.adobe.com/view/4c8b0341-c158-42a4-493b-3c88d7d6b52a-3aba/">
+            <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://www.figma.com/proto/uWD18uoW0kvnfgrUDJTEtA/Untitled?node-id=7%3A2&scaling=containSent">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
-                      <img src="../assets/vue-logo.png" alt="Placeholder image" />
+                      <img src="../assets/ryder.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4">Portfolio App</p>
+                        <p class="title is-4">Ryder Scott</p>
                       </div>
                     </div>
                     <div class="content">
@@ -68,7 +68,7 @@
                   </div>
                 </div>
               </a>
-            </div> -->
+            </div>
 
             <!-- <div class="grid-item column is-one-fifth">
               <a href="https://xd.adobe.com/view/36a3e2aa-f52d-4e27-644b-ec9843145ced-4092/">
