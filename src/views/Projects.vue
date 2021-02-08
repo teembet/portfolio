@@ -140,7 +140,7 @@
             </div> -->
 
             <div class="grid-item column is-one-fifth">
-              <a target="__blank" href="https://xd.adobe.com/view/b0058bc1-b7ff-45b3-54a5-3e52a4573ea5-c634/">
+              <a target="__blank" href="https://teembet-weather-app.netlify.app/">
                 <div class="card">
                   <div class="card-image">
                     <figure class="image is-square">
@@ -158,7 +158,7 @@
                       </div>
                     </div>
                     <div class="content">
-                      <p>UI Design</p>
+                      <p>Vue Design</p>
                       <button class="button is-fullwidth">View Project</button>
                     </div>
                   </div>
