@@ -279,6 +279,94 @@
                 </div>
               </a>
             </div>
+               <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://www.nextdreamluxurytravels.com/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/next.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Next Dream Luxury</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://olaniyanestate.com.ng/">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/ola.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Olaniyan Estate</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>Vue Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://www.figma.com/proto/e3FQxbLJkYeIFdNSJ1xPiC/UBA-Omnichannel?node-id=2420%3A15516&scaling=scale-down">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/UBA-Logo.svg" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Omnichannel</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+             <div class="grid-item column is-one-fifth">
+              <a target="__blank" href="https://www.figma.com/proto/1gl9pARFZP4dcUf235FAsz/Zenith-Mobile?node-id=75%3A5&scaling=scale-down">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-square">
+                      <img src="../assets/zenith.png" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Zenith Bank</p>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p>UI Design</p>
+                      <button class="button is-fullwidth">View Project</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
           </section>
          
