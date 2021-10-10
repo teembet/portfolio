@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div class="black-bg">
     <section v-scroll-reveal.reset="{ delay: 250 }">
       <div class="hero-home is-cover is-relative is-fullheight-with-navbar">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title head-anim1 is-1">
-              Hello, I'm <span style="color: teal">Timbet,</span>
+            <h1 class="title head-anim1 is-1 white-text">
+             <span class="white-text">Hello, I'm </span> <span style="color: teal">Timbet,</span>
             </h1>
-            <h2 class="subtitle is-3 head-anim2">
+            <h2 class="subtitle is-3 head-anim2 white-text">
               A customer focused, entrepreneurially minded Software Developer.
             </h2>
             <a

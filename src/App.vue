@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
+    <nav class="navbar is-fixed-top black-bg" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand black-bg">
         <a class="navbar-item" href="#home" v-smooth-scroll="{ duration: 1000, offset: -50 }">
-          <img src="./assets/headertim.jpg" class="logo" width="200" height="50">
+         <h1 class="logo">TIMBET EKANEM</h1>
         </a>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" :class="{ 'is-active': showNav }" @click="showNav = !showNav">
@@ -14,19 +14,19 @@
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active': showNav }">
+      <div id="navbarBasicExample" class="navbar-menu black-bg" :class="{ 'is-active': showNav }">
         <!-- <div class="navbar-start">
 
         </div> -->
 
-        <div class="navbar-end">
-          <a href="#home" v-smooth-scroll="{ duration: 2000, offset: -50 }"  class="navbar-item">
+        <div class="navbar-end black-bg">
+          <a href="#home" v-smooth-scroll="{ duration: 2000, offset: -50 }"  class="navbar-item white-text black-bg">
             Home
           </a>
-          <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item">
+          <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
            About
           </a>
-          <a href="#projects" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item">
+          <a href="#projects" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
            Projects
           </a>
           <!-- <router-link to="/contact" class="navbar-item">
@@ -42,10 +42,10 @@
   <about id="about"/>
   <projects id="projects"/>
    </div>
-   <footer class="footer" v-scroll-reveal.reset="{ delay: 250 }" >
-    <div class="content has-text-centered">
-      <p>
-        Built by Timbet Ekanem with Vue.js, Bulma, and Mongo DB.
+   <footer class="footer black-bg" v-scroll-reveal.reset="{ delay: 250 }" >
+    <div class="content has-text-centered black-bg">
+      <p class="white-text">
+        Built by Timbet Ekanem with Vue.js & Bulma.
       </p>
      
     </div>
@@ -71,6 +71,20 @@ export default {
 </script>
 
 <style type="text/css">
+
+.box,.grid-item,.card{
+  background-color: #000 !important;
+  /* border: 1px solid ; */
+}
+.logo{
+  color: #4a4a4a;
+}
+.black-bg{
+  background-color: #000 !important;
+}
+.white-text{
+  color:#fff !important;
+}
 #app {
   min-height: 100vh;
   overflow: hidden;
@@ -87,13 +101,19 @@ footer {
   transition: ease-out 1s;
   transform: scale(1.2);
 }
+body{
+  background-color: #000;
+}
 </style>
 
 <style lang="scss">
 
 $navbar-item-hover-color: teal;
+// $navbar-menu-color: teal;
+$navbar-item-active-color: teal;
 $primary: teal;
-
+ $navbar-item-hover-background-color:#000;
+// $navbar-background-color:#000;
 
 .hero-home{
   @extend .hero
