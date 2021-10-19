@@ -12,7 +12,7 @@
             </h2>
             <a
               class="button is-primary is-medium is-outlined"
-              href="https://drive.google.com/file/d/1KQK8Y86eR0DwwsoKhUFFetQZWpPJU5Uh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Mxqw8B4UuxRr6TJiR0tvDyChp72bNtvw/view?usp=sharing"
               target="_blank"
               download
               >Download CV <i class="anim-icon fas fa-angle-double-down"></i
