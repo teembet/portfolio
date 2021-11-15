@@ -35,6 +35,7 @@
        </div>
      </div>
    </nav>
+   <div id="scroll-progress"></div>
    <div >
 
   
@@ -64,14 +65,42 @@ export default {
     name: "App",
     data() {
       return{
-        showNav: false
+        showNav: false,
+        scrollProgress:''
       }
     },
+    methods:{
+ scrollMethod(){
+   const scrollProgress = document.getElementById('scroll-progress');
+const height =document.documentElement.scrollHeight - document.documentElement.clientHeight;
+ const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+  scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+    }
+    },
+
+    created(){
+window.addEventListener('scroll', this.scrollMethod);
+
+    },
+
+    destroyed(){
+   window.removeEventListener('scroll', this.scrollMethod);
+    }
+   
+ 
+
   };
 </script>
 
 <style type="text/css">
-
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: teal;
+  z-index: 10000;
+}
 .box,.grid-item,.card{
   background-color: #000 !important;
   /* border: 1px solid ; */
