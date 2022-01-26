@@ -15,19 +15,20 @@
               href="https://drive.google.com/file/d/1Mxqw8B4UuxRr6TJiR0tvDyChp72bNtvw/view?usp=sharing"
               target="_blank"
               download
+               data-cursor-hover
               >Download CV <i class="anim-icon fas fa-angle-double-down"></i
             ></a>
             <div class="social-links social-networks bounce">
               <h2 style="padding: 10px">Get In Touch</h2>
-              <a  href="mailto:timbetekanem@yahoo.com"><i class="fas fa-envelope"></i></a>
-              <a target="__blank" href="https://linkedin.com/in/timbet-ekanem"
+              <a  data-cursor-hover  href="mailto:timbetekanem@yahoo.com"><i class="fas fa-envelope"></i></a>
+              <a target="__blank" href="https://linkedin.com/in/timbet-ekanem"  data-cursor-hover
                 ><i class="fab fa-linkedin-in"></i
               ></a>
 
-              <a target="__blank" href="https://github.com/teembet"
+              <a target="__blank" href="https://github.com/teembet"  data-cursor-hover
                 ><i class="fab fa-github"></i
               ></a>
-              <a target="__blank" href="https://twitter.com/teem2016"
+              <a target="__blank" href="https://twitter.com/teem2016"  data-cursor-hover
                 ><i class="fab fa-twitter"></i
               ></a>
             </div>
@@ -39,7 +40,7 @@
             <img class="img-fluid main-img" src="../assets/timbet 2.png" />
           </figure>
           <div id="section10" class="demo is-hidden-mobile">
-            <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }"
+            <a  data-cursor-hover href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }"
               ><span></span>Scroll</a
             >
           </div>

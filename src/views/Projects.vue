@@ -19,7 +19,7 @@
     </center> -->
       <div class="post-card flex-container columns  is-multiline">
         <div class="grid-item col-lg-2 column is-one-quarter">
-          <a target="__blank" href="https://garden-academy.netlify.app/">
+          <a  target="__blank" href="https://garden-academy.netlify.app/">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square" style="text-align:center">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="content">
                   <p>React</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="content">
                   <p>React</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="content">
                   <p>Vue</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="content">
                   <p>Vue</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="content">
                   <p>Nuxt</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -161,14 +161,14 @@
                 </div>
                 <div class="content">
                   <p>React</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
         </div>
 
-        <div class="grid-item column is-one-quarter">
+        <!-- <div class="grid-item column is-one-quarter">
           <a
             target="__blank"
             href="https://www.figma.com/proto/uWD18uoW0kvnfgrUDJTEtA/Untitled?node-id=7%3A2&scaling=containSent"
@@ -187,13 +187,13 @@
                 </div>
                 <div class="content">
                   <p>UI</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
-        </div>
-
+        </div> -->
+<!-- 
         <div class="grid-item column is-one-quarter">
           <a
             href="https://www.figma.com/proto/BYpvqSTsNKCqVLBTsRGEkD/Untitled?node-id=8%3A474&viewport=750%2C540%2C0.08195904642343521&scaling=min-zoom"
@@ -213,13 +213,13 @@
                 </div>
                 <div class="content">
                   <p>UI</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
-        </div>       
-         <div class="grid-item column is-one-quarter">
+        </div>        -->
+         <!-- <div class="grid-item column is-one-quarter">
           <a
             href="https://xd.adobe.com/view/81ef51c4-87ec-46e5-832f-a9fb7971436e-d4bc/screen/3a9992d3-edc9-42e1-9445-6e050fcb0d2c"
             target="__blank"
@@ -238,12 +238,12 @@
                 </div>
                 <div class="content">
                   <p>UI</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
-        </div>
+        </div> -->
 
         <!-- <div class="grid-item column is-one-fifth">
           <a
@@ -339,7 +339,7 @@
                 </div>
                 <div class="content">
                   <p>Vue</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -410,7 +410,7 @@
                 </div>
                 <div class="content">
                   <p>Vue</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
@@ -438,7 +438,7 @@
             </div>
           </a>
         </div> -->
-        <div class="grid-item column is-one-quarter">
+        <!-- <div class="grid-item column is-one-quarter">
           <a
             target="__blank"
             href="https://www.figma.com/proto/e3FQxbLJkYeIFdNSJ1xPiC/UBA-Omnichannel?node-id=2420%3A15516&scaling=scale-down"
@@ -457,13 +457,13 @@
                 </div>
                 <div class="content">
                   <p>UI</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
-        </div>
-        <div class="grid-item column is-one-quarter">
+        </div> -->
+        <!-- <div class="grid-item column is-one-quarter">
           <a
             target="__blank"
             href="https://www.figma.com/proto/1gl9pARFZP4dcUf235FAsz/Zenith-Mobile?node-id=75%3A5&scaling=scale-down"
@@ -482,12 +482,12 @@
                 </div>
                 <div class="content">
                   <p>UI Design</p>
-                  <button class="button is-primary is-outlined is-fullwidth">View Project</button>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
             </div>
           </a>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>

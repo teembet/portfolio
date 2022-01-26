@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <nav class="navbar is-fixed-top black-bg" role="navigation" aria-label="main navigation">
       <div class="navbar-brand black-bg">
-        <a class="navbar-item" href="#home" v-smooth-scroll="{ duration: 1000, offset: -50 }">
+        <a class="navbar-item" data-cursor-hover href="#home" v-smooth-scroll="{ duration: 1000, offset: -50 }">
          <h1 class="logo">TIMBET EKANEM</h1>
         </a>
 
@@ -20,13 +20,14 @@
         </div> -->
 
         <div class="navbar-end black-bg">
-          <a href="#home" v-smooth-scroll="{ duration: 2000, offset: -50 }"  class="navbar-item white-text black-bg">
+          <a href="#home"  data-cursor-hover
+          v-smooth-scroll="{ duration: 2000, offset: -50 }"  class="navbar-item white-text black-bg">
             Home
           </a>
-          <a href="#about" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
+          <a href="#about" data-cursor-hover v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
            About
           </a>
-          <a href="#projects" v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
+          <a href="#projects" data-cursor-hover v-smooth-scroll="{ duration: 2000, offset: -50 }" class="navbar-item white-text">
            Projects
           </a>
           <!-- <router-link to="/contact" class="navbar-item">
@@ -35,7 +36,7 @@
        </div>
      </div>
    </nav>
-   <div id="scroll-progress"></div>
+   <div id="scroll-progress"  data-cursor-hover></div>
    <div >
 
   
@@ -51,17 +52,22 @@
      
     </div>
   </footer>
+
+<!-- <div class="cursor-dot-outline"></div>
+<div class="cursor-dot"></div> -->
+ <cursor-fx ref="cursor" color="#008080" />
 </div>
 </template>
 
 <script>
 
 import About from './views/About.vue';
-
+import { CursorFx } from '@luxdamore/vue-cursor-fx';
 import Projects from './views/Projects.vue';
 import Home from './views/Home.vue';
 export default {
-  components: { About,Projects,Home },
+  components: { About,Projects,Home,
+  'cursor-fx': CursorFx, },
     name: "App",
     data() {
       return{
@@ -75,11 +81,13 @@ export default {
 const height =document.documentElement.scrollHeight - document.documentElement.clientHeight;
  const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
   scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
-    }
     },
 
-    created(){
+    },
+
+    mounted(){
 window.addEventListener('scroll', this.scrollMethod);
+this.$refs.cursor.start();
 
     },
 
@@ -93,6 +101,8 @@ window.addEventListener('scroll', this.scrollMethod);
 </script>
 
 <style type="text/css">
+
+
 #scroll-progress {
   position: fixed;
   top: 0;
@@ -133,13 +143,19 @@ footer {
 body{
   background-color: #000;
 }
+html,
+html *,
+body,
+body * {
+  cursor: none;
+}
 </style>
 
 <style lang="scss">
 
-$navbar-item-hover-color: teal;
+$navbar-item-hover-color: #008080;
 // $navbar-menu-color: teal;
-$navbar-item-active-color: teal;
+$navbar-item-active-color: #008080;
 $primary: teal;
  $navbar-item-hover-background-color:#000;
 // $navbar-background-color:#000;
