@@ -19,7 +19,7 @@
     </center> -->
       <div class="post-card flex-container columns  is-multiline">
         <div class="grid-item col-lg-2 column is-one-quarter">
-          <a  target="__blank" href="https://garden-academy.netlify.app/">
+          <a  target="__blank" href="https://gardenacademy.io/">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square" style="text-align:center">
@@ -45,7 +45,7 @@
           </a>
         </div>
         <div class="grid-item col-lg-2 column is-one-quarter">
-          <a target="__blank" href="https://edu-tech.netlify.app/">
+          <a target="__blank" href="https://www.edutech.global/">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square" style="text-align:center">
