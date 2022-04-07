@@ -37,7 +37,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <p>React</p>
+                  <p>.</p>
                   <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
@@ -141,13 +141,13 @@
         <div class="grid-item col-lg-2 column is-one-quarter">
           <a
             target="__blank"
-            href="https://policecug.itexapp.com/"
+            href="https://tcrypto-list.netlify.app/"
           >
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square" style="text-align:center">
                   <img
-                    src="../assets/itex.svg"
+                    src="../assets/crypto.jpeg"
                     alt="Placeholder image"
                     style="object-fit:contain"
                   />
@@ -156,11 +156,11 @@
               <div class="card-content">
                 <div class="media">
                   <div class="media-content">
-                    <p class="title is-4">ITEX CUG</p>
+                    <p class="title is-4">Crypto List</p>
                   </div>
                 </div>
                 <div class="content">
-                  <p>React</p>
+                  <p>Next</p>
                   <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
                 </div>
               </div>
