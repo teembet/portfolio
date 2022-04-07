@@ -44,6 +44,58 @@
             </div>
           </a>
         </div>
+          <div class="grid-item col-lg-2 column is-one-quarter">
+          <a target="__blank" href="https://iisysgroup.com/">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square" style="text-align:center">
+                  <img
+                    src="../assets/itex.png"
+                    alt="Placeholder image"
+                    style="object-fit:contain"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Itex</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>React</p>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+           <div class="grid-item col-lg-2 column is-one-quarter">
+          <a target="__blank" href="https://www.payvice.com/">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square" style="text-align:center">
+                  <img
+                    src="../assets/payvice.png"
+                    alt="Placeholder image"
+                    style="object-fit:contain"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Payvice</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>.</p>
+                  <button class="button is-primary is-outlined is-fullwidth"  data-cursor-hover>View Project</button>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
         <div class="grid-item col-lg-2 column is-one-quarter">
           <a target="__blank" href="https://www.edutech.global/">
             <div class="card">
